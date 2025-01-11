@@ -186,7 +186,6 @@ text-align: center;
       justify-content: center;
       align-items: center;
       margin: auto;
-     
       
     }
 
@@ -200,15 +199,20 @@ text-align: center;
     }
 .header{
   border-radius: 10%;
+  max-width: 25em;
 }
 .summary-container{
-  
+  padding: 0 ;
+  border: none;
   display: flex;
   flex-direction: row;
-  
+  border-radius: 10%;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 .desktop_mode{
     min-width: 30em;
+    padding: 1.5em 1em;
 }
 
 
